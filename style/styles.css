@@ -21,7 +21,7 @@
 body {
     background-color: var(--color-primary-white);
         color: var(--color-primary-dark);
-        font-family: var(--font-family); sans-serif;
+        font-family: var(--font-family), sans-serif;
         font-size: 22px;
         font-weight: 400;
         line-height: 1.5;
@@ -39,8 +39,9 @@ h1, h2, h3, h4, h5, h6, p {
 }
 .container {
     width: 100%;
-    max-width: 1264px;
+    max-width: 1288px;
     margin: 0 auto;
+    padding: 0 24px;
     
 }
 /*Button*/
@@ -100,7 +101,8 @@ h1, h2, h3, h4, h5, h6, p {
     flex-grow: 1;
     align-items: center;
     align-content: center;
-}
+}    
+
 /*Link*/
  .link {
      color: var(--color-primary-light);
